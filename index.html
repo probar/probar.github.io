@@ -11,7 +11,7 @@
       <script> $(function() {
  $('form').submit(function() {
  var $m = $(this).find('[name=q]');
- $m.val(   $m.val() + ' (site:.reddit.com OR inurl:forum OR inurl:topic OR inurl:stackexchange.com OR inurl:viewthread.cfm OR inurl:viewtopic.php OR +"powered by vbulletin")');
+ $m.val(   $m.val() + ' (site:.reddit.com OR inurl:forum OR inurl:topic OR inurl:stackexchange.com OR inurl:viewthread.cfm OR inurl:viewtopic.php OR site:"community.*.com" OR +"powered by vbulletin")');
  });
  }); </script>
       <form action="https://google.com/search" method="get"> D<br>
