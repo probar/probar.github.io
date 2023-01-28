@@ -9,13 +9,15 @@
     <div class="entry-content">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>
       <script> $(function() {
- $('form').submit(function() {
- var $m = $(this).find('[name=q]');
- $m.val(   $m.val() + ' ' + 'dt' );
- });
- }); 
+           $('form').submit(function() {
+               var $m = $(this).find('[name=q]');
+               $m.val(   $m.val() + ' ' + 'dt' );
+           });
+      }); 
      function myFunction() {
        var site_list = document.getElementById("mySelect").value;
+       var $m = $(this).find('[name=q]');
+       $m.val(   $m.val() + ' ' + 'dt' );
       } 
       
       
